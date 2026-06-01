@@ -1,0 +1,30 @@
+# ---- build artifacts ----
+*.o
+*.a
+*.d
+tracker/tracker
+client/client
+
+# sanitizer / scratch builds
+*_asan
+*.asan
+
+# ---- test-generated data & logs ----
+test/*.log
+test/*.bin
+test/got_*
+test/fgot_*
+test/agot_*
+test/lgot*
+test/mcarol_*
+test/mbob_*
+
+# ---- course material (not part of the implementation) ----
+*.pdf
+
+# ---- editor / OS noise ----
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
