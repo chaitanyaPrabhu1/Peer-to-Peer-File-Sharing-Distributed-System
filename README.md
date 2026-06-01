@@ -7,7 +7,6 @@ integrity verification. A pair of synchronised, fault-tolerant trackers
 coordinate metadata and peer discovery; the system keeps working as long as at
 least one tracker is alive.
 
-> AOS Assignment 3 — Monsoon 2025, IIIT Hyderabad.
 
 ---
 
